@@ -1,0 +1,111 @@
+
+
+.super_alerta {
+    font-size: 20pt;
+    color: #fff;
+    background-color: red;
+}
+
+.centralizado{
+    text-align: center;
+    padding: 7px;
+    border-radius: 7px;
+    margin: 4px 0 4px 0;
+}
+
+.texto-esquerda {
+    text-align: left;
+}
+
+.esquerda{
+    text-align: left;
+    padding: 5px;
+    border-radius: 7px;
+    margin: 4px 0 4px 0;
+}
+
+a:hover {
+    color: green;
+    transition: 0.5s;
+}
+
+
+.v_center {
+    vertical-align: middle;
+}
+.mostra_grid {
+  min-height: 70px;
+  /*background-color: #aaa; */
+}
+
+.logo {
+    width: 100%;
+    max-width: 540px;
+}
+
+.box {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pequeno {
+    width: 50px;
+}
+
+.foto_grande {
+        width: 200px;
+        float: left;
+        margin-right: 9px;
+}
+
+.foto_media {
+    width: 100px;
+    float: left;
+    margin: 0px 15px 0px 5px;
+    border-radius: 10px;
+}
+
+
+.grande {
+    font-size: 20pt;
+}
+
+.medio {
+    font-size: 16pt;
+}
+.alert {
+    color: green;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.pesquisa {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 22px;
+    border-color:red;
+    background-color: #F5F5F5;
+}
+
+.pesquisa a{
+    color:#146414;
+}
+.pesquisa a:hover{
+    color: #26a69a;
+    transition:0.5s;
+}
+
+#show-picture, .preview {
+    width: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .esconder {
+        display: none;
+    }
+}
